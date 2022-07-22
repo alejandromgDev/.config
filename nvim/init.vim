@@ -24,7 +24,12 @@ Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'arcticicestudio/nord-vim'
 call plug#end()
+
+set termguicolors
+colorscheme nord
 
 "Bufferline
 lua << EOF
