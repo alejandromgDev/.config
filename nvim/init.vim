@@ -25,11 +25,12 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'arcticicestudio/nord-vim'
+Plug 'Yggdroot/indentLine'
+Plug 'KeitaNakamura/neodark.vim'
 call plug#end()
 
 set termguicolors
-colorscheme nord
+colorscheme neodark
 
 "Bufferline
 lua << EOF
